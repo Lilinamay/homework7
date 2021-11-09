@@ -173,7 +173,7 @@ public class Move : MonoBehaviour
             triggered = false;
             FindObjectOfType<DialogueTrigger>().triggered = false;
             FindObjectOfType<DialogueTrigger>().first = false;
-            //FindObjectOfType<DialogueTrigger>().dialogueComplete = false;
+            FindObjectOfType<DialogueTrigger>().dialogueComplete = false;
             money += Random.Range(100, 1000);
             Debug.Log(money);
         }
